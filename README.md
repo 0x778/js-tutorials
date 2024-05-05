@@ -1,4 +1,4 @@
-# small_projects_JavaScript
+# small projects JavaScript
 
 Here you can find small projects to learn build them for learn js
 

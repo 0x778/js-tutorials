@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="//unpkg.com/alpinejs" defer></script>
+
+    </head>
+    <body x-data="{ num: 0,num1 : 2,result:0 }" >
+        <span  @click="num++" id="num1-el" x-text="num" ></span>
+        <span  @click="num1++" id="num2-el" x-text="num1" ></span>
+        <br>
+
+
+        <button @click="result = num1 + num">Add</button>
+        <button onclick="Subtract()">Subtract</button>
+        <button onclick="Divide()">Divide</button>
+        <button onclick="Multiply()">Multiply</button>
+        <br>
+        <p x-text="result" ></p>
+        <p id="sum-el" > </p>
+        <script src="index.js"></script>
+    </body>
+</html>

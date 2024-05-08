@@ -22,7 +22,7 @@ console.log("Wooow !You Win this  ")
 
 else if (sum < 21){
 console.log("Do you want to Draw a card ! ")
-    //in
+    ///in
 }
 
 else {
